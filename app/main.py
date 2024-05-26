@@ -20,10 +20,6 @@ class GamePlayersRegistration(SQLModel):
     email: str
     phone_number: str
 
-class GamePlayersInformations(SQLModel):
-    player_fathername: str
-    CNIC: int
-    Registration_number: int
 
 async def consume():
     # Milestone: CONSUMER INTIALIZE
