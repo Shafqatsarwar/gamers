@@ -42,4 +42,4 @@ app = FastAPI(lifespan=lifespan)
 
 @app.get("/")
 def hello():
-    return {"Hello my World"}
+    return {"Hello kafka World"}
